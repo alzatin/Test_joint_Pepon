@@ -661,8 +661,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.46262626262626266,
-      "y": 0.5090361445783133,
+      "x": 0.43367003367003365,
+      "y": 0.45481927710843373,
       "uniqueID": "id-223",
       "ioValues": [
         {
@@ -753,8 +753,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.40134680134680134,
-      "y": 0.6626506024096386,
+      "x": 0.3811447811447811,
+      "y": 0.641566265060241,
       "uniqueID": "id-373",
       "name": "Screws",
       "topLevel": false,
@@ -1556,8 +1556,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6767676767676768,
-      "y": 0.6957831325301205,
+      "x": 0.6787878787878787,
+      "y": 0.7108433734939759,
       "uniqueID": "id-526",
       "ioValues": [
         {
@@ -1848,8 +1848,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8404040404040404,
-      "y": 0.6897590361445783,
+      "x": 0.8336700336700338,
+      "y": 0.7018072289156627,
       "uniqueID": "id-587",
       "name": "Extract Tag",
       "ioValues": [
@@ -1903,13 +1903,13 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "yDist",
-          "ioValue": 1.25,
-          "currentEquation": "1.25"
+          "ioValue": 1.5,
+          "currentEquation": "1.5"
         },
         {
           "name": "zDist",
