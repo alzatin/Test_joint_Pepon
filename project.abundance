@@ -365,10 +365,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.573063973063973,
-      "y": 0.713855421686747,
+      "x": 0.4067340067340068,
+      "y": 0.7319277108433735,
       "uniqueID": "id-159",
-      "name": "New Molecule",
+      "name": "Acrylic",
       "topLevel": false,
       "allAtoms": [
         {
@@ -391,7 +391,8 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 3
+              "ioValue": 10,
+              "currentEquation": "10"
             },
             {
               "name": "y length",
@@ -479,12 +480,76 @@
           "ap2Name": "geometry",
           "ap1ID": "id-165",
           "ap2ID": "id-166"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-166",
+          "ap2ID": "id-161"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.593939393939394,
+      "y": 0.5572289156626505,
+      "uniqueID": "id-187",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4976430976430976,
+      "y": 0.7349397590361446,
+      "uniqueID": "id-191",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0.25,
+          "currentEquation": ".25"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 6.75,
+          "currentEquation": "6.75"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-70",
+      "ap2ID": "id-187"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-159",
+      "ap2ID": "id-191"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-191",
+      "ap2ID": "id-187"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
