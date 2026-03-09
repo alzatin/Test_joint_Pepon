@@ -753,8 +753,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.42828282828282827,
-      "y": 0.8373493975903615,
+      "x": 0.40134680134680134,
+      "y": 0.6626506024096386,
       "uniqueID": "id-373",
       "name": "Screws",
       "topLevel": false,
@@ -1553,6 +1553,103 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.4713804713804714,
+      "y": 0.8855421686746988,
+      "uniqueID": "id-506",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3,
+          "currentEquation": "3"
+        },
+        {
+          "name": "y length",
+          "ioValue": 7,
+          "currentEquation": "7"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5542087542087542,
+      "y": 0.8644578313253012,
+      "uniqueID": "id-510",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.5,
+          "currentEquation": ".5"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6094276094276094,
+      "y": 0.8132530120481928,
+      "uniqueID": "id-514",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7070707070707071,
+      "y": 0.8373493975903615,
+      "uniqueID": "id-520",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5.5
+        },
+        {
+          "name": "zDist",
+          "ioValue": 3.5,
+          "currentEquation": "3.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8424242424242424,
+      "y": 0.7078313253012049,
+      "uniqueID": "id-526",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1617,10 +1714,31 @@
       "ap2ID": "id-2"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-241",
+      "ap2ID": "id-526"
+    },
+    {
       "ap2Name": "Shape 5",
       "ap1ID": "id-373",
       "ap2ID": "id-241"
-    }
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-506",
+      "ap2ID": "id-510"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-510",
+      "ap2ID": "id-514"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-514",
+      "ap2ID": "id-520"
+    },
+    null
   ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
