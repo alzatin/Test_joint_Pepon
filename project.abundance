@@ -733,8 +733,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8296296296296297,
-      "y": 0.6295180722891566,
+      "x": 0.826936026936027,
+      "y": 0.5903614457831325,
       "uniqueID": "id-241",
       "ioValues": [
         {
@@ -747,6 +747,10 @@
         },
         {
           "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -1463,8 +1467,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5481481481481482,
-      "y": 0.8765060240963856,
+      "x": 0.5521885521885521,
+      "y": 0.8554216867469879,
       "uniqueID": "id-360",
       "ioValues": [
         {
@@ -1473,15 +1477,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "yDist",
-          "ioValue": 1
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "zDist",
-          "ioValue": 4.5
+          "ioValue": 3.5,
+          "currentEquation": "3.5"
         }
       ]
     }
@@ -1571,6 +1578,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-354",
       "ap2ID": "id-360"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-360",
+      "ap2ID": "id-241"
     }
   ],
   "unitsKey": "Inches",
