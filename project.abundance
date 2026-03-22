@@ -288,8 +288,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 1.125,
-              "currentEquation": "1.125"
+              "ioValue": 1.125
             },
             {
               "name": "y length",
@@ -309,8 +308,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 1.125,
-              "currentEquation": "1.125"
+              "ioValue": 1.125
             }
           ]
         },
@@ -322,57 +320,11 @@
           "ioValues": [
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-rectangle-2-1.125-1-0.5625-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 3",
-              "ioValue": {
-                "geometry": "move-rectangle-1.125-2-0.5625-1-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
@@ -393,8 +345,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0.5625,
-              "currentEquation": ".5625"
+              "ioValue": 0.5625
             },
             {
               "name": "zDist",
@@ -414,8 +365,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0.5625,
-              "currentEquation": ".5625"
+              "ioValue": 0.5625
             },
             {
               "name": "yDist",
@@ -1194,8 +1144,7 @@
             },
             {
               "name": "height",
-              "ioValue": 0.75,
-              "currentEquation": ".75"
+              "ioValue": 0.75
             }
           ]
         },
@@ -1235,13 +1184,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             },
             {
               "name": "yDist",
-              "ioValue": 5.5,
-              "currentEquation": "5.5"
+              "ioValue": 5.5
             },
             {
               "name": "zDist",
@@ -1293,8 +1240,7 @@
             },
             {
               "name": "height",
-              "ioValue": 0.25,
-              "currentEquation": ".25"
+              "ioValue": 0.25
             }
           ]
         },
@@ -1334,8 +1280,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0.75,
-              "currentEquation": ".75"
+              "ioValue": 0.75
             },
             {
               "name": "yDist",
@@ -1363,8 +1308,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 1.75,
-              "currentEquation": "1.75"
+              "ioValue": 1.75
             },
             {
               "name": "zDist",
@@ -1516,8 +1460,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0.8,
-              "currentEquation": "0.8"
+              "ioValue": 0.8
             },
             {
               "name": "zDist",
@@ -1697,57 +1640,11 @@
                     },
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-circle-1.65-0-0-0",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            -4
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "circle-4.25",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
@@ -1993,10 +1890,6 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 0.0393701
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2039,6 +1932,10 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 3
+                    },
+                    {
+                      "name": "inputShape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
