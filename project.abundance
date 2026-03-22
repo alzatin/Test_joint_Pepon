@@ -149,8 +149,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7118644067796611,
-      "y": 0.8162650602409638,
+      "x": 0.7132768361581922,
+      "y": 0.8132530120481928,
       "uniqueID": "id-526",
       "ioValues": [
         {
@@ -298,8 +298,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.3481638418079096,
-          "y": 0.42168674698795183,
+          "x": 0.3425141242937853,
+          "y": 0.39457831325301207,
           "uniqueID": "id-75",
           "ioValues": [
             {
@@ -320,11 +320,57 @@
           "ioValues": [
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-rectangle-2-1.125-1-0.5625-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-rectangle-1.125-2-0.5625-1-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
@@ -1640,11 +1686,57 @@
                     },
                     {
                       "name": "Shape 1",
-                      "ioValue": null
+                      "ioValue": {
+                        "geometry": "move-circle-1.65-0-0-0",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            -4
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": null
+                      "ioValue": {
+                        "geometry": "circle-4.25",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
                     },
                     {
                       "name": "Shape 3",
