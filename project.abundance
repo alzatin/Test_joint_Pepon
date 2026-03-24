@@ -150,7 +150,7 @@
     {
       "atomType": "Assembly",
       "x": 0.7175141242937854,
-      "y": 0.7680722891566265,
+      "y": 0.7771084337349398,
       "uniqueID": "id-526",
       "ioValues": [
         {
@@ -189,8 +189,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8382768361581922,
-      "y": 0.7409638554216867,
+      "x": 0.8298022598870056,
+      "y": 0.713855421686747,
       "uniqueID": "id-587",
       "name": "Extract Tag",
       "ioValues": [
@@ -1286,8 +1286,7 @@
             },
             {
               "name": "height",
-              "ioValue": 0.375,
-              "currentEquation": "0.375"
+              "ioValue": 0.375
             }
           ]
         },
@@ -1303,8 +1302,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -1328,8 +1326,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0.875,
-              "currentEquation": "0.875"
+              "ioValue": 0.875
             },
             {
               "name": "yDist",
@@ -1985,10 +1982,6 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 0.0393701
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2031,6 +2024,10 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 3
+                    },
+                    {
+                      "name": "inputShape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
